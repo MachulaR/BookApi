@@ -1,0 +1,43 @@
+img{
+    max-width: 200px;
+    max-height: 180px;
+    padding-top: 20px;
+}
+
+#emptySearch, .errorMsg{
+    text-align: center;
+}
+
+.searchPanel{
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid #9A9A9A;
+    border-radius: 5px;
+    text-align: center;
+    width: 250px;
+}
+
+.image, .image-text, .content{
+    height: 220px;
+}
+
+.image{
+    width: 200px;
+    float: left;
+    text-align: center;
+}
+
+.image-text {
+    padding-top: 40%;
+}
+
+.title, .description{
+    min-width: 600px;
+}
+
+.content{
+    float: left;
+    width: -webkit-calc(100% - 200px); /* image width */
+    width:    -moz-calc(100% - 200px);
+    width:             calc(100% - 200px);
+}
